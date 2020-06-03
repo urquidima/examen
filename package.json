@@ -1,0 +1,16 @@
+{
+  "name": "examenmongo",
+  "version": "1.0.0",
+  "description": "base de datos conectada a una pagina web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Alejandro Urquidi Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.17"
+  }
+}
