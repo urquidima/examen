@@ -6,8 +6,9 @@ h1{
 }
 span{
     background-color: black;
-    color: white;
+    color: rgb(255, 187, 0);
+    width: 70px;
 }
 body{
-    background-image: url(https://fondos.io/wp-content/uploads/2019/01/fondo-blanco-43-640x459.jpg);
+    background-image: url(http://www.hdfondos.eu/pictures/2013/0219/1/orig_404307.jpg);
 }

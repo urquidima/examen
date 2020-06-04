@@ -19,16 +19,16 @@ app.use('/', pintoresRouter)
 
 /*la conexion con mongodb*/
 mongoose.Promise= global.Promise
-const cadena='mongodb+srv://equipo_2:1234567890@urquidi-manuel-4f-fdipr.gcp.mongodb.net/test?retryWrites=true&w=majority'
+const cadena='mongodb+srv://emelyurquidi:123123drink@cluster0-jnd0d.gcp.mongodb.net/examennode?retryWrites=true&w=majority'
 mongoose.connect(cadena,{useNewUrlParser: true, useUnifiedTopology: true})
     .then(()=>{
-        console.log('conexion establecida =oD')
+        console.log('conexion establecida ee')
     })
     .catch(err=> console.log(err));
 
 /*arrancar el servidor web*/
 app.listen(PUERTO, ()=>{
-    console.log('escuchando el puerto...')
+    console.log('escuchando el puerto de emely...')
 })
 
 
